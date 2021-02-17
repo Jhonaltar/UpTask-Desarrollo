@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Mallory';
+    src: url('https://static.production.site.facultyclients.co/newsletter/Mallory-Book.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Mallory';
+    font-style: italic;
+    src: url('https://static.production.site.facultyclients.co/newsletter/Mallory-Book-Italic.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Mallory';
+    font-weight: bold;
+    src: url('https://static.production.site.facultyclients.co/newsletter/Mallory-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Mallory';
+    font-weight: bold;
+    font-style: italic;
+    src: url('https://static.production.site.facultyclients.co/newsletter/Mallory-Bold-Italic.woff') format('woff');
+  }
+  html {
+    background-color: #F5F4F0;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Verdana, sans-serif;
+    color: #444;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    padding: 20px;
+  }
+  /* Layout ----------------------------------------------- */
+  div.main {
+    max-width: 600px;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  div.header {
+    padding: 30px;
+    border-bottom: 1px solid #E5E2D9;
+    text-align: right;
+  }
+  div.header img {
+    display: block;
+  }
+  div.header img.logoword {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+  div.header img.logosymbol {
+    float: right;
+  }
+  div.header p {
+    display: none;
+  }
+  div.body {
+    padding: 30px;
+  }
+  div.footer {
+    font-size: 12px;
+    color: #777;
+    margin: 50px -30px 0 -30px;
+    padding: 20px 30px 0;
+    border-top: 1px solid #E5E2D9;
+  }
+  div.clear {
+    height: 0;
+    clear: both;
+  }
+  div.bleed {
+    margin: -31px -30px 30px -30px;
+  }
+  /* Typography ------------------------------------------ */
+  h1 {
+    font-size: 1.6em;
+    letter-spacing: -0.01em;
+    line-height: 1.333;
+    font-weight: normal;
+    margin: 1.5em 0 1.5em;
+  }
+  h2 {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin-top: 2em;
+  }
+  h3 {
+    font-size: 0.9em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 2em;
+  }
+  a {
+    color: #3e824d;
+  }
+  a:hover {
+    color: #444;
+  }
+  blockquote {
+    font-size: 0.9em;
+    padding: 0 0 0 1.5em;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  /* Images, Buttons, Etc. -------------------------------- */
+  img.full {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  a.button {
+    display: inline-block;
+    background-color: #3e824d;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 75%;
+    letter-spacing: 0.1em;
+    padding: 0.75rem 1.5rem;
+  }
+  a.button.large {
+    font-size: 1.2em;
+  }
+  a.button.low {
+    background-color: #E4DFD1;
+    color: #56524A;
+  }
